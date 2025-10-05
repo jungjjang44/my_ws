@@ -2,6 +2,7 @@ import time
 import psycopg2
 
 # PostgreSQL 서버에 SQL 연결을 맺고 세션 객체를 생성
+# 현재는 로컬 PC에서 테스트용으로 사용
 conn=psycopg2.connect(host="localhost", dbname="db01", user="postgres",password="root")
 
 # DB에 SQL을 날릴 커서 생성

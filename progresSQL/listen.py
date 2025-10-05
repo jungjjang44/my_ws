@@ -2,6 +2,7 @@ import asyncio # Python 비동기 이벤트 루프 모듈
 import psycopg2 # 파이썬 DB 드라이버 (SQL 실행 등)
 
 # PostgreSQL 서버에 SQL 연결을 맺고 세션 객체를 생성
+# 현재는 로컬 PC에서 테스트용으로 사용
 conn=psycopg2.connect(host="localhost", dbname="db01", user="postgres",password="root")
 
 # Auto commit mode - listen 실행 즉시 반영됨
