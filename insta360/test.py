@@ -1,7 +1,7 @@
 import cv2,time,signal,sys
 
 DEV = "/dev/video0"
-W,H,FPS=2880,1440,30
+W, H, FPS = 1920, 1080, 30   # 16:9로 Flat 뷰 유도
 
 cap=None
 running=True
